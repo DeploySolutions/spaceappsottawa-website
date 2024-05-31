@@ -247,6 +247,18 @@ nav ul li a:hover {
     width: 320px;
 }
 
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;    
+}
+
+.sponsors img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .people-image {
     border-radius: 60px;
 }
@@ -349,6 +361,10 @@ footer {
     .section-horizontal {
         grid-template-columns: unset;
     }
+    .sponsors {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;    
+    }    
 }
 
 @media (max-width: 520px) {
